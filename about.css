@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header#main-header {
+  background-color: #fff;
+  padding: 1rem 0;
+}
+
+header#main-header ul {
+  font-size: 15px;
+  font-weight: 400;
+  gap: 2rem;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-center {
+  align-items: center;
+}
+.align-stretch {
+  align-items: stretch;
+}
+.justify-start {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-between;
+}
+
+.justify-evely {
+  justify-content: space-evenly;
+}
+
+.portion {
+  flex: 1rem;
+}
+
+a {
+  color: rgba(131, 136, 143, 1);
+  text-decoration: none;
+}
+
+section#showcase {
+  border-radius: 10px;
+  background-image: url(./Images/Bitmap.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+section#showcase h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  width: 470px;
+}
+
+section#showcase p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  width: 465px;
+  line-height: 24px;
+  margin: 1rem 0;
+}
+
+.cofe {
+  padding: 5rem 0;
+}
+
+.pordin p {
+  left: 0%;
+  right: 0%;
+  top: 23.53%;
+  bottom: 0%;
+  width: 525px;
+  margin: 100px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+
+.pordin h1 {
+  margin-left: 100px;
+  font-weight: 900;
+  font-size: 40px;
+  color: #333d4b;
+}
+
+section#showbiznes h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  width: 470px;
+  margin-left: 50px;
+}
+
+section#showbiznes p {
+  color: rgba(254, 252, 247, 1);
+
+  font-size: 16px;
+  font-weight: 400;
+  width: 465px;
+  line-height: 24px;
+  margin: 1rem 0;
+  margin-left: 50px;
+}
+
+section#showbiznes {
+  width: 1300px;
+  margin-left: 150px;
+  background-color: #333d4b;
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nom {
+  color: #333d4b;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+section#testimonials article.cards {
+  margin-left: 50px;
+  margin: 1rem 0;
+}
+
+article a p {
+  margin: 10px 0;
+}
+
+section#testimonials h2 {
+  color: #83888f;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+
+#min-header {
+  background-color: rgba(44, 52, 62, 1);
+  padding: 70px 0;
+}
+
+#min-header ul {
+  gap: 3rem;
+  margin-left: 100px;
+}
