@@ -176,6 +176,7 @@ section#testimonials h2 {
 }
 
 #min-header ul {
+  margin-right: 300px;
   gap: 3rem;
   margin-left: 100px;
 }
